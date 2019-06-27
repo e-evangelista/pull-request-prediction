@@ -38,11 +38,16 @@ This section documents our project methodology.  First, we obtained pull request
 
 We obtained a dataset of GitHub pull requests called "pullreqs".  The dataset was curated by researchers from the Delft University of Technology (Netherlands) and detailed in the paper "A Dataset for Pull Request Research", which was presented at the 11th Working Conference on Mining Software Repositories (MSR) in 2014 [1].  
 
-The dataset consists of over 1,000 GitHub projects and represents the top 1% of projects by total number of pull requests generated in 2013.  
+The dataset consists of over 1,000 GitHub projects and represents the top 1% of projects by total number of pull requests generated in 2013.  Collectively, the projects include over 370,000 pull requests.
 
-### Feature Evaluation
+For each pull request, three categories of attributes were identified: pull request characteristics, project characteristics, and developer-based features.  Overall, 40 attributes were included for each pull request.  The following table provides examples of some of the attributes in each attribute category [1].
+
+
+
 
 ### Model Selection
+
+### Feature Evaluation
 
 ### Model Training and Inference
 
