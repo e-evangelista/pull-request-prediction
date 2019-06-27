@@ -9,13 +9,13 @@ This repo documents how my project team developed pull request acceptance predic
 
 Pull requests are an important tool for distributed software development.  When developers contribute to a source code repository that uses a distributed version control system (like Github), they can initiate a pull request to ask the project maintainers to "pull" the changes into production code [1]. Project maintainers may then review the proposed source code changes and accept or reject the associated pull request.  If a pull request is accepted, the proposed changes are added to the production code.  Otherwise, the production code remains unchanged.
 
-### Problem
+### *Problem*
 
 Project maintainers may spend significant time and resources reviewing pull requests and testing the impact of proposed source code changes.
 
 These resources could instead be allocated for other purposes, like testing current code, fixing known bugs, or implementing new functionality.  
 
-### Opportunity
+### *Opportunity*
 
 A pull request acceptance prediction model may help streamline the review process, allowing project maintainers to prioritize the review of certain pull requests over others.
 
@@ -34,7 +34,7 @@ A pull request acceptance prediction model may help streamline the review proces
 This section documents our project methodology.  First, we obtained pull request data from various GitHub projects.  Then, we selected machine learning (ML) models for pull request prediction based on our prior research with software fault prediction models.  Next, we examined pull request data and identified attributes to use as inputs for the ML models.  We then determined an appropriate GitHub project population for evaluation.  Finally, we implemented the models and analyzed the results.  Each step of our methodology is detailed below.
 
 
-### Data Gathering
+### *Data Gathering*
 
 We obtained a dataset of GitHub pull requests called "pullreqs".  The dataset was curated by researchers from the Delft University of Technology (Netherlands) and detailed in the paper "A Dataset for Pull Request Research", which was presented at the 11th Working Conference on Mining Software Repositories (MSR) in 2014 [1].  
 
