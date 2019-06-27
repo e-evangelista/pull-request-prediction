@@ -50,8 +50,7 @@ For each pull request, three categories of attributes were identified: pull requ
 
 We then analyzed the project distribution by number of pull requests, noting the vast majority of projects have less than 2,000 pull requests.
 
-
-
+![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%202.png)
 
 ### Model Selection
 
