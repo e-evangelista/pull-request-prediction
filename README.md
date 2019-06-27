@@ -62,7 +62,7 @@ These algorithms were chosen based on our prior research in which we compiled a 
 
 
 
-### Feature Identification
+### *Feature Identification*
 
 We used three approaches for identifying the set of features for our prediction models:
 1. Ad Hoc
