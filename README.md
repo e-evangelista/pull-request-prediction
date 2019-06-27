@@ -31,9 +31,12 @@ A pull request acceptance prediction model may help streamline the review proces
 
 ## Methodology
 
-This section provides the methodology of our project.  First, we obtained pull request data from various GitHub projects.  Then, we selected machine learning (ML) models for pull request prediction based on our prior research with software fault prediction models.  Next, we examined pull request data and identified attributes to use as inputs for the ML models.  We then determined an appropriate GitHub project population for evaluation.  Finally, we implemented the models, trained and evaluated the models on the reduced project population, and analyzed teh results.  Each step of our methodology is detailed below.
+This section provides the methodology of our project.  First, we obtained pull request data from various GitHub projects.  Then, we selected machine learning (ML) models for pull request prediction based on our prior research with software fault prediction models.  Next, we examined pull request data and identified attributes to use as inputs for the ML models.  We then determined an appropriate GitHub project population for evaluation.  Finally, we implemented the models and analyzed the results.  Each step of our methodology is detailed below.
+
 
 ### Data Gathering
+
+TBD
 
 ### Feature Evaluation
 
