@@ -58,11 +58,18 @@ We selected five common machine learning algorithms for model development:
 * Decision Tree (DT)
 * Support Vector Machines (SVM).
 
-These algorithms were chosen based on our prior research in which we compiled a list of popular models for software fault prediction.  As we estimate the analysis involved in both software fault prediction and pull request acceptance prediction to be similar, we refer to that prior research to build our list of algorithms for experimentation.  Though neural networks were also prevalent among software fault prediction models, we excluded them due to resource and time constraints.
+These algorithms were chosen based on our prior research in which we compiled a list of popular models for software fault prediction.  As we estimate the analysis involved in both software fault prediction and pull request acceptance prediction to be similar, we leverage the prior research to build our list of algorithms for experimentation.  Though neural networks were also prevalent among software fault prediction models, we excluded them due to resource and time constraints.
 
 
 
-### Feature Evaluation
+### Feature Identification
+
+We experimented with three approaches for identifying the set of features for our pull request acceptance prediction models:
+* Ad Hoc
+* High Correlation
+* Model-Specific.
+
+
 
 
 
