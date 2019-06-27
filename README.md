@@ -52,8 +52,8 @@ For each pull request, three categories of attributes were identified: pull requ
 ### *Model Selection*
 
 We selected five common machine learning algorithms for model development: 
-* Logistic Regression (LR)
 * Naive Bayes (NB)
+* Logistic Regression (LR)
 * Random Forest (RF)
 * Decision Tree (DT)
 * Support Vector Machines (SVM).
@@ -96,11 +96,14 @@ The third approach (model-specific) produced a unique feature set for each of th
 
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Model_Specific_Features.png)
 
-Each feature set was indentifed using the WEKA Classifier Attribute Evaluation tool, which evaluates the worth of an attribute based on the specified classifier.  We ran the tool using teh same reduced training dataset noted above.
+Each feature set was indentifed using the WEKA Classifier Attribute Evaluation tool, which evaluates the worth of an attribute based on the specified classifier.  We ran the tool using the same reduced training dataset noted above.
 
 
 
 ### *Project Selection*
+
+As noted above, the pullreqs dataset contains over 1,000 Github projects and over 370,000 pull requests collectively.  The following chart details project distribution by number of pull requests.  
+
 
 
 
