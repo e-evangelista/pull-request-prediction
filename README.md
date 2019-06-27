@@ -21,11 +21,13 @@ A pull request acceptance prediction model may help streamline the review proces
 
 
 
+
 ## Project Goals
 
 1) Develop a pull request acceptance prediction model using machine learning algorithms 
 2) Evaluate the accuracy of the model
 3) Identify the attributes needed as inputs for the model
+
 
 
 
@@ -40,8 +42,11 @@ We obtained a dataset of GitHub pull requests called "pullreqs".  The dataset wa
 
 The dataset consists of over 1,000 GitHub projects and represents the top 1% of projects by total number of pull requests generated in 2013.  Collectively, the projects include over 370,000 pull requests.
 
-For each pull request, three categories of attributes were identified: pull request characteristics, project characteristics, and developer-based features.  Overall, 40 attributes were included for each pull request.  The following table provides examples of some of the attributes in each attribute category [1].
+For each pull request, three categories of attributes were identified: pull request characteristics, project characteristics, and developer-based features.  Overall, 40 attributes were included for each pull request.  Figure 1 below provides examples of some of the attributes in each attribute category [1].
 
+![](Figure 1A.png)
+![](Figure 1B.png)
+Figure 1 - Pull Request Attributes by Category
 
 
 
