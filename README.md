@@ -71,7 +71,7 @@ We used three approaches for identifying the set of features for our prediction 
 
 The first approach (ad hoc) resulted in the selection of the following seven features:
 
-![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Ad_Hoc_FeatureSet.png =100x20)
+<img src = "https://github.com/e-evangelista/pull-request-prediction/blob/master/Ad_Hoc_FeatureSet.png" width = "200"> 
 
 This feature set contains a mix of all three attribute categories.  The first two features are pull request characteristics, the next two are project characteristics, and the latter three features are developer characteristics.  These attributes were chosen as we expect code complexity, testing rigor, and developer reputation to all be important factors in predicting pull request acceptance.
 
