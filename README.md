@@ -70,25 +70,14 @@ We used three approaches for identifying the set of features for our prediction 
 3. Model-Specific
 
 The first approach (ad hoc) resulted in the selection of the following seven features:
-* Number of participants
-* Number of files changed
-* Executable lines of code (SLOC)
-* Number of test cases per 1,000 liens of code (kLOC)
-* The requester
-* Requester success rate
-* Number of followers for the requester
+
+![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Ad_Hoc_FeatureSet.png)
 
 This feature set contains a mix of all three attribute categories.  The first two features are pull request characteristics, the next two are project characteristics, and the latter three features are developer characteristics.  These attributes were chosen as we expect code complexity, testing rigor, and developer reputation to all be important factors in predicting pull request acceptance.
 
 The second approach (high correlation) resulted in the selection of eight features:
-* Requester success rate
-* Forward links
-* Number of commits
-* Number of test lines changed 
-* Main team member
-* Number of document files touched
-* Number of participants
-* Intra branch
+
+![](https://github.com/e-evangelista/pull-request-prediction/blob/master/High_Corr_FeatureSet.png)
 
 These features were identified using the Waikato Environment for Knowledge Analysis (WEKA) Correlation Attribute Evaluation tool, which evaluates the worth of an attribute based on its correlation (Pearson's) with the class label.  We ran the tool on a reduced training dataset consisting of the first 50 pull requests for 50% of all projects with at least 200 pull requests.  
 
