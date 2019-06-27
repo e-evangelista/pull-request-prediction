@@ -67,7 +67,7 @@ These algorithms were chosen based on our prior research in which we compiled a 
 We used three approaches for identifying the set of features for our prediction models:
 1. Ad Hoc
 2. High Correlation
-3, Model-Specific.
+3. Model-Specific
 
 The first approach (ad hoc) resulted in the selection of the following seven features:
 * Number of participants
@@ -92,6 +92,7 @@ The second approach (high correlation) resulted in the selection of eight featur
 
 These features were identified using the Waikato Environment for Knowledge Analysis (WEKA) Correlation Attribute Evaluation tool, which evaluates the worth of an attribute based on its correlation (Pearson's) with the class label.  We ran the tool on a reduced training dataset consisting of the first 50 pull requests for 50% of all projects with at least 200 pull requests.  
 
+The third approach (model-specific) produced a unique feature set for each of the five models evaluated.  
 
 
 
