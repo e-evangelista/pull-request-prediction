@@ -104,7 +104,11 @@ Each feature set was indentifed using the WEKA Classifier Attribute Evaluation t
 
 As noted above, the pullreqs dataset contains over 1,000 Github projects and over 370,000 pull requests collectively.  The following chart details project distribution by number of pull requests.  
 
+![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%202.png)
 
+To allow for sufficient training and testing samples, we excluded all projects with less than 200 pull requests.  This reduced the project population to 481 projects.
+
+We then considered the pull request rejection rate of each project.
 
 
 
