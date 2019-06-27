@@ -42,12 +42,14 @@ We obtained a dataset of GitHub pull requests called "pullreqs".  The dataset wa
 
 The dataset consists of over 1,000 GitHub projects and represents the top 1% of projects by total number of pull requests generated in 2013.  Collectively, the projects include over 370,000 pull requests.
 
-For each pull request, three categories of attributes were identified: pull request characteristics, project characteristics, and developer-based features.  Overall, 40 attributes were included for each pull request.  Figure 1 below provides examples of some of the attributes in each attribute category [1].
+For each pull request, three categories of attributes were identified: pull request characteristics, project characteristics, and developer-based features.  Overall, 40 attributes were included for each pull request.  The following table provides examples of some of the attributes in each attribute category [1].
 
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%201A.png)
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%201B.png)
 
-Figure 1 - Pull Request Attributes by Category
+
+We then analyzed the project distribution by number of pull requests, noting the vast majority of projects have less than 2,000 pull requests.
+
 
 
 
