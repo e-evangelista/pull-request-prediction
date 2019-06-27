@@ -52,7 +52,9 @@ We then analyzed the project distribution by number of pull requests, noting the
 
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%202.png)
 
-### Model Selection
+### *Model Selection*
+
+
 
 ### Feature Evaluation
 
