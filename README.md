@@ -100,7 +100,7 @@ Each feature set was indentifed using the WEKA Classifier Attribute Evaluation t
 
 
 
-### *Project Selection*
+### *Project Population*
 
 As noted above, the pullreqs dataset contains over 1,000 Github projects and over 370,000 pull requests collectively.  The following chart details project distribution by number of pull requests.  
 
