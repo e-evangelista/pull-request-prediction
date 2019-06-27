@@ -1,5 +1,5 @@
 # pull-request-prediction
-Pull Request Acceptance Prediction
+## Pull Request Acceptance Prediction
 
 This repo documents how my project team developed pull request acceptance prediction models using machine learning algorithms.
 
