@@ -48,15 +48,24 @@ For each pull request, three categories of attributes were identified: pull requ
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%201B.png)
 
 
-We then analyzed the project distribution by number of pull requests, noting the vast majority of projects have less than 2,000 pull requests.
-
-![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%202.png)
 
 ### *Model Selection*
+
+We selected five common machine learning algorithms for model development: 
+* Logistic Regression (LR)
+* Naive Bayes (NB)
+* Random Forest (RF)
+* Decision Tree (DT)
+* Support Vector Machines (SVM).
+
+These algorithms were chosen based on our prior research in which we compiled a list of popular models for software fault prediction.  As we estimate the analysis involved in both software fault prediction and pull request acceptance prediction to be similar, we refer to that prior research to build our list of algorithms for experimentation.  Though neural networks were also prevalent among software fault prediction models, we excluded them due to resource and time constraints.
 
 
 
 ### Feature Evaluation
+
+
+
 
 ### Model Training and Inference
 
