@@ -46,6 +46,7 @@ For each pull request, three categories of attributes were identified: pull requ
 
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%201A.png)
 ![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Figure%201B.png)
+
 Figure 1 - Pull Request Attributes by Category
 
 
