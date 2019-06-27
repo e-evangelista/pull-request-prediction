@@ -7,8 +7,15 @@ This repo documents how my project team developed pull request acceptance predic
 
 Pull requests are an important tool for distributed software development.  When developers contribute to a source code repository that uses a distributed version control system (like Github), they can initiate a pull request to ask the project maintainers to "pull" the changes into production code [1]. Project maintainers may then review the proposed source code changes and accept or reject the associated pull request.  If a pull request is accepted, the proposed changes are added to the production code.  Otherwise, the production code remains unchanged.
 
-## Problem
+### Problem
 
+Project maintainers may spend significant time and resources reviewing pull requests and testing the impact of proposed source code changes.
+
+These resources could instead be allocated for other purposes, like testing current code, fixing known bugs, or implementing new functinoality.  
+
+### Opportunity
+
+A pull request acceptance prediction model may help streamline the review process, as an accurate model could direct project maintainers to prioritize the review of certain pull requests over others.
 
 
 ## Project Goals
