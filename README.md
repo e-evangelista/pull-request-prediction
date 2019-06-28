@@ -106,7 +106,9 @@ To adjust for projects with significant class imbalance and to reduce skewing mo
 
 ### Model Implementation
 
-The models were developed using scikit-learn, a machine learning library for Python.  For every project in the reduced population (i.e. 280 projects), each model was trained using the first 150 pull requests and evaluated on the remaining pull requests.  As noted above, the number of pull requests per project range from 200 to 12,799 with most projects containing  less than 2,000 pull requests.
+The models were developed using scikit-learn, a machine learning library for Python.  Refer to [pullRequestModel.py]( https://github.com/e-evangelista/pull-request-prediction/blob/master/pullRequestModel.py) for details regarding implementation of three of the models (RandomForest, Decision Tree, and SVM).
+
+For every project in the reduced population (i.e. 280 projects), each model was trained using the first 150 pull requests and evaluated on the remaining pull requests.  As noted above, the number of pull requests per project range from 200 to 12,799 with most projects containing  less than 2,000 pull requests.
 
 ## Results
 
