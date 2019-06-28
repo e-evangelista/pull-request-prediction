@@ -83,7 +83,7 @@ These features were identified using the Waikato Environment for Knowledge Analy
 
 The third approach (model-specific) produced a unique feature set for each of the five models evaluated.  
 
-<img src = "https://github.com/e-evangelista/pull-request-prediction/blob/master/Model_Specific_Features.png" width = "500">
+<img src = "https://github.com/e-evangelista/pull-request-prediction/blob/master/Model_Specific_Features.png" width = "700">
 
 Each feature set was indentifed using the WEKA Classifier Attribute Evaluation tool, which evaluates the worth of an attribute based on the specified classifier.  We ran the tool using the same reduced training dataset noted above.
 
