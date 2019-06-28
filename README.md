@@ -99,9 +99,9 @@ To allow for sufficient training and testing samples, we excluded all projects w
 
 We then considered the pull request acceptance rate of each project.  The following chart details project distribution by pull request acceptance rate for projects with at least 200 pull requests.
 
-![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Histogram_PRAcceptance.png)
+<img src = "https://github.com/e-evangelista/pull-request-prediction/blob/master/Histogram_PRAcceptance.png" width = "700">
 
-To adjust for projects with significant class imbalance and to reduce skewing model accuracy results, we excluded all projects with a pull request acceptance rate greater than 90%.  
+To adjust for projects with significant class imbalance and to reduce skewing model accuracy results, we excluded all projects with a pull request acceptance rate greater than 90%.  This second filter reduced the project population to 280 projects.
 
 
 ### Model Training and Inference
