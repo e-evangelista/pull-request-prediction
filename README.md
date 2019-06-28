@@ -97,8 +97,11 @@ As noted above, the pullreqs dataset contains over 1,000 Github projects and ove
 
 To allow for sufficient training and testing samples, we excluded all projects with less than 200 pull requests.  This reduced the project population to 481 projects.
 
-We then considered the pull request rejection rate of each project.  The following chart details project distribution by rejection rate for projects with at least 200 pull requests.
+We then considered the pull request acceptance rate of each project.  The following chart details project distribution by pull request acceptance rate for projects with at least 200 pull requests.
 
+![](https://github.com/e-evangelista/pull-request-prediction/blob/master/Histogram_PRAcceptance.png)
+
+To adjust for projects with significant class imbalance and to reduce skewing model accuracy results, we excluded all projects with a pull request acceptance rate greater than 90%.  
 
 
 ### Model Training and Inference
