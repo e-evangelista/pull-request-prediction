@@ -104,7 +104,9 @@ We then considered the pull request acceptance rate of each project.  The follow
 To adjust for projects with significant class imbalance and to reduce skewing model accuracy results, we excluded all projects with a pull request acceptance rate greater than 90%.  This second filter reduced the project population to 280 projects.
 
 
-### Model Training and Inference
+### Model Implementation
+
+The models were developed using scikit-learn, a machine learning library for Python.  For every project in the reduced population (i.e. 280 projects), each model was trained using the first 150 pull requests and evaluated on the remaining pull requests.  As noted above, the number of pull requests per project range from 200 to 12,799 with most projects having less than 2,000 pull requests.
 
 ## Results
 
